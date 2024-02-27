@@ -101,4 +101,4 @@ def convert_boxes(boxes):
     return boxes * np.array([width, height, width, height])
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
