@@ -2,7 +2,6 @@ from ultralytics import YOLO
 from flask import request, Flask, jsonify
 from waitress import serve
 from PIL import Image
-import 
 
 app = Flask(__name__)
 
